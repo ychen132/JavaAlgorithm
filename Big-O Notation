@@ -1,0 +1,7 @@
+Time Complexity is the major factor
+Big O notation tells How well Algorithm scale 
+Big O:  O(1)---Constant
+        O(Logn)---Logarithmic
+        O(n)---Linear
+        O(nlogn)---n log-star n (log(2)n)
+        O(n^2)---Quadratic
