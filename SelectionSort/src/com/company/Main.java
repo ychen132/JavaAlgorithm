@@ -10,14 +10,11 @@ public class Main {
                 if(intArray[i]>intArray[largest]){
                     largest = i;
                 }
-            } 
+            }
             swap(intArray,largest,lastUnsortedIndex);
         }
 
 
-        for(int i:intArray){
-            System.out.print(i+" ");
-        }
     }
 
 
