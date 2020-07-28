@@ -1,0 +1,21 @@
+Variation of Insertion Sort
+Insertion sort chooses which element to insertion using a gap of 1
+ShellSort starts out using a larger gap value
+As the algorithm runs, that gap is reduced
+reduce the amount of shifting required
+The last gap value is always 1
+Knuth Sequence determines gap
+gap is calculated using (3^k-1)/2
+Set k based on the length of the array
+We want the gap to be as close as possible to the length of the array we want to sort, without being greater than the length
+Example base our gap on the length. Initialize the gap to array.length/2
+On each iteration, we' ll divide the gap value by 2
+gap value will be 3 then 1
+
+
+
+ShellSort
+In-place Algorithm
+Difficult to nail down the time complexity since it depends on the gap; worst case at O(n^2); but it can perform better
+Unstable Algorithm
+Doesn't require as much shifting
