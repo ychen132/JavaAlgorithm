@@ -1,0 +1,13 @@
+Divide and conquer Algorithm
+Recursive
+Two phases: Splitting and Merging
+Logical splitting- no new arrays
+Start with Unsorted array
+Divide the array into two arrays, one left one right
+split left right arrays again until only one element each
+Merge every left/right pair of sibling arrays into a sorted array
+After first merge -- numbers of two element sorted arrays
+keep merging until there is one array
+Not in place. use temporary arrays
+O(nlogn)-base 2
+Stable algorithm
