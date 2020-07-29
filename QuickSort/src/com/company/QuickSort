@@ -1,0 +1,9 @@
+QuickSort
+Divide and Conquer algorithm
+Recursive
+Uses a pivot element to partition the array into 2 parts
+Element< pivot to the left, > pivot to the right
+Repeat for the left and right array until partitioning become the array into a serious of 1-element array
+In-place
+O(nlogn)-base 2, worst case quadratic
+Unstable algorithm
