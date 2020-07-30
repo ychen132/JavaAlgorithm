@@ -1,0 +1,16 @@
+Makes assumptions about the data
+Doesnt use comparision
+Counts the number of occurrences of each value
+Only works with non-negative discrete values
+Values must be within a specific range
+
+
+Assumes we have values between 1 & 10
+We have 10 possible values, therefore create a counting array of length 10
+Traverse the input array from left to right
+Use counting array to track the number of how many of each value are in the input array
+Using the counts in the counting array, write the values in sorted order to the input array
+
+Not an in-place algorithm
+O(n)--can achieve this because we 're making assumptions about the data we're sorting
+More steps needed for stable sort
